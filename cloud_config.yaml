@@ -1,0 +1,13 @@
+#cloud-config
+package_upgrade: true
+packages:
+  - git
+  - curl
+  - wget
+  - mosh
+  - make
+  - tmux
+  - gcc
+  - vim
+  - jq
+  
